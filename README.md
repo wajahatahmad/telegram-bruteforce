@@ -12,13 +12,14 @@ The passcode is saved in a hashed form in a XML-file (see below). The hash metho
 # Configuration file
 The file "shared_prefs/userconfig.xml" contains something like this :
 # 
-   <map>
-    [...]
-    <string name="passcodeHash1">*** SHA256 HASH***</string>
-    [...]
-    <string name="passcodeSalt">*** BASE64 SALT ***</string>
-    [...]
-   </map>
+    <map>
+     [...]
+     <string name="passcodeHash1">*** SHA256 HASH***</string>
+     [...]
+     <string name="passcodeSalt">*** BASE64 SALT ***</string>
+     [...]
+    </map>
+
 You must take the "passcodeSalt" and "passcodeHash1" values to run this script
 
 # Usage
