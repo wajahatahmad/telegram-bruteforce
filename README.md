@@ -10,7 +10,6 @@ This script allows one to bruteforce this passcode.
 The passcode is saved in a hashed form in a XML-file (see below). The hash method is sha256. The hash is double salted: the same salt is placed before AND after the passcode. The passcode part is the string UTF-8 representation of the 4 digits
 
 # Configuration file
-
 The file "shared_prefs/userconfig.xml" contains something like this :
    <map>
     [...]
