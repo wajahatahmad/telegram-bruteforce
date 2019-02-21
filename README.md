@@ -23,4 +23,4 @@ The file "shared_prefs/userconfig.xml" contains something like this :
 You must take the "passcodeSalt" and "passcodeHash1" values to run this script
 
 # Usage
-    TelegramPasscodeBruteforce.py --salt the base64 salt --hash the hash
+    Telegrambruteforce.py --salt the base64 salt --hash the hash
