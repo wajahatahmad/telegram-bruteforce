@@ -11,6 +11,7 @@ The passcode is saved in a hashed form in a XML-file (see below). The hash metho
 
 # Configuration file
 The file "shared_prefs/userconfig.xml" contains something like this :
+# 
    <map>
     [...]
     <string name="passcodeHash1">*** SHA256 HASH***</string>
@@ -21,4 +22,4 @@ The file "shared_prefs/userconfig.xml" contains something like this :
 You must take the "passcodeSalt" and "passcodeHash1" values to run this script
 
 # Usage
-   TelegramPasscodeBruteforce.py --salt the base64 salt --hash the hash
+    TelegramPasscodeBruteforce.py --salt the base64 salt --hash the hash
