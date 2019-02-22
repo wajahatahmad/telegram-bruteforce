@@ -1,3 +1,5 @@
+# this code is not working. we will soon fix it
+
 # telegram-bruteforce
 Brute Force attack on telegram
 
